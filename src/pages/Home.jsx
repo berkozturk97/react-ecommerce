@@ -1,11 +1,14 @@
 import React from 'react'
-import Navbar from '../components/navbar';
-
+import Announcement from '../components/announcement/announcement';
+import Navbar from '../components/nav-bar/navbar';
+import Slider from '../components/slider/slider';
 
 const Home = () => {
     return (
         <div>
+            <Announcement />
             <Navbar />
+            <Slider />
         </div>
     )
 }
